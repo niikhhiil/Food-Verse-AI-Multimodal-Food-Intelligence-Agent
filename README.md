@@ -1,13 +1,12 @@
 # FoodVerse AI — Multimodal Food Intelligence Agent
 
-[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fniikhhiil%2FFood-Verse-AI-Multimodal-Food-Intelligence-Agent)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-green.svg)](https://fastapi.tiangolo.com)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.2+-ee4c2c.svg)](https://pytorch.org/)
-[![OpenCV](https://img.shields.io/badge/OpenCV-4.9+-5c3ee8.svg)](https://opencv.org/)
 [![React 18](https://img.shields.io/badge/React-18-61dafb.svg)](https://react.dev/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-Serverless-5c3ee8.svg)](https://opencv.org/)
 [![Tests](https://img.shields.io/badge/tests-18%20passed-brightgreen.svg)]()
 
-FoodVerse AI is a unified, multimodal artificial intelligence platform that integrates computer vision, temporal video analysis, and LLM-driven reasoning to deliver real-time, actionable insights across food recognition, freshness and spoilage assessment, restaurant hygiene compliance monitoring, intelligent cooking guidance, and personalized adaptive meal planning.
+FoodVerse AI is a unified, multimodal artificial intelligence platform that integrates computer vision, temporal video analysis, and LLM-driven reasoning to deliver real-time, actionable insights across food recognition, freshness and spoilage assessment, restaurant hygiene compliance monitoring, intelligent cooking guidance, and personalized adaptive meal planning. Fully optimized for instant deployment on **Vercel** serverless cloud.
 
 ---
 

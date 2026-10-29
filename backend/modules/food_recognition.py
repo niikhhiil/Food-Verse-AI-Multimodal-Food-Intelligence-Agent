@@ -9,9 +9,22 @@ import json
 import numpy as np
 from PIL import Image
 import io
-import torch
-import torchvision.transforms as transforms
-import torchvision.models as models
+try:
+    import torch
+    import torchvision.transforms as transforms
+    import torchvision.models as models
+    HAS_TORCH = True
+    PREPROCESS_TRANSFORM = transforms.Compose([
+        transforms.Resize((224, 224)),
+        transforms.ToTensor(),
+        transforms.Normalize(
+            mean=[0.485, 0.456, 0.406],
+            std=[0.229, 0.224, 0.225]
+        )
+    ])
+except ImportError:
+    HAS_TORCH = False
+    PREPROCESS_TRANSFORM = None
 
 # Load Nutrition Database
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data")
@@ -25,24 +38,22 @@ def load_nutrition_db():
 
 NUTRITION_DB = load_nutrition_db()
 
-# Vision Preprocessing Pipeline
-PREPROCESS_TRANSFORM = transforms.Compose([
-    transforms.Resize((224, 224)),
-    transforms.ToTensor(),
-    transforms.Normalize(
-        mean=[0.485, 0.456, 0.406],
-        std=[0.229, 0.224, 0.225]
-    )
-])
-
 class FoodRecognitionEngine:
     def __init__(self):
-        # Initialize MobileNetV2 architecture for visual feature extraction
-        try:
-            self.model = models.mobilenet_v2(weights=models.MobileNet_V2_Weights.DEFAULT)
-            self.model.eval()
-            self.has_weights = True
-        except Exception:
+        # Initialize MobileNetV2 architecture if PyTorch is available
+        self.model = None
+        self.has_weights = False
+        if HAS_TORCH:
+            try:
+                self.model = models.mobilenet_v2(weights=models.MobileNet_V2_Weights.DEFAULT)
+                self.model.eval()
+                self.has_weights = True
+            except Exception:
+                try:
+                    self.model = models.mobilenet_v2(weights=None)
+                    self.model.eval()
+                except Exception:
+                    self.model = None
             # Fallback in offline/airgapped environments
             self.model = models.mobilenet_v2(weights=None)
             self.model.eval()
