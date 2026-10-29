@@ -1,0 +1,225 @@
+{
+  "recipes": [
+    {
+      "id": "recipe_biryani",
+      "title": "Aromatic Chicken Dum Biryani",
+      "cuisine": "Hyderabadi / Indian",
+      "difficulty": "Intermediate",
+      "prep_time_minutes": 25,
+      "cook_time_minutes": 40,
+      "servings": 4,
+      "calories_per_serving": 480,
+      "tags": ["Rich", "High Protein", "Classic"],
+      "ingredients": [
+        {"item": "Chicken pieces (bone-in or breast)", "quantity": "500g"},
+        {"item": "Basmati rice (aged long grain)", "quantity": "2 cups (400g)"},
+        {"item": "Thick curd / plain yogurt", "quantity": "1/2 cup"},
+        {"item": "Fried onions (Birista)", "quantity": "1 cup"},
+        {"item": "Biryani spices (bay leaf, cloves, cardamom, cinnamon)", "quantity": "Whole spices mix"},
+        {"item": "Ginger-garlic paste", "quantity": "2 tbsp"},
+        {"item": "Red chilli powder, turmeric, garam masala", "quantity": "1 tsp each"},
+        {"item": "Fresh mint & coriander leaves", "quantity": "1/2 cup chopped"},
+        {"item": "Pure Desi Ghee", "quantity": "2 tbsp"},
+        {"item": "Saffron soaked in warm milk", "quantity": "2 tbsp"}
+      ],
+      "steps": [
+        {
+          "step_number": 1,
+          "action": "Marinate",
+          "instruction": "In a large bowl, mix chicken with yogurt, ginger-garlic paste, red chilli, turmeric, garam masala, half the fried onions, mint, and salt. Marinate for 30 minutes minimum.",
+          "safety_tip": "Keep raw marinated chicken refrigerated below 4°C until cooking.",
+          "timer_seconds": 1800
+        },
+        {
+          "step_number": 2,
+          "action": "Parboil Rice",
+          "instruction": "Rinse basmati rice until water runs clear. Boil 6 cups of water with whole spices and salt. Add rice and boil for 5-6 minutes until 70% cooked (grain breaks into 3 parts). Drain completely.",
+          "safety_tip": "Use a heavy colander and be careful of hot steam when draining.",
+          "timer_seconds": 360
+        },
+        {
+          "step_number": 3,
+          "action": "Layer (Dum)",
+          "instruction": "In a heavy-bottomed pot, spread marinated chicken as base layer. Layer parboiled rice on top. Garnish with saffron milk, ghee, remaining fried onions, and coriander.",
+          "safety_tip": "Seal pot edges with dough or tight double aluminum foil to retain aromatic steam.",
+          "timer_seconds": 180
+        },
+        {
+          "step_number": 4,
+          "action": "Slow Cook",
+          "instruction": "Cook on high heat for 5 minutes, then place pot on a heavy tawa and cook on low heat (Dum) for 25 minutes. Rest for 10 minutes before opening.",
+          "safety_tip": "Check that chicken internal temperature exceeds 74°C (165°F).",
+          "timer_seconds": 1500
+        },
+        {
+          "step_number": 5,
+          "action": "Plate & Serve",
+          "instruction": "Gently fluff biryani from the bottom using a flat spatula. Serve warm with mint cucumber raita and sliced lemon wedges.",
+          "safety_tip": "Serve immediately while steaming hot.",
+          "timer_seconds": 60
+        }
+      ]
+    },
+    {
+      "id": "recipe_salmon_salad",
+      "title": "Pan-Seared Salmon with Lemon Herb Garden Salad",
+      "cuisine": "Mediterranean Continental",
+      "difficulty": "Easy",
+      "prep_time_minutes": 10,
+      "cook_time_minutes": 12,
+      "servings": 2,
+      "calories_per_serving": 340,
+      "tags": ["Low Carb", "Omega-3", "Keto", "High Protein"],
+      "ingredients": [
+        {"item": "Fresh Salmon fillets (skin-on)", "quantity": "2 fillets (300g)"},
+        {"item": "Extra Virgin Olive Oil", "quantity": "1.5 tbsp"},
+        {"item": "Baby spinach & mixed greens", "quantity": "3 cups"},
+        {"item": "Cherry tomatoes (halved)", "quantity": "1 cup"},
+        {"item": "Cucumber (thinly sliced)", "quantity": "1/2 cup"},
+        {"item": "Fresh lemon juice & zest", "quantity": "1 whole lemon"},
+        {"item": "Garlic (minced)", "quantity": "1 clove"},
+        {"item": "Flaky sea salt & cracked black pepper", "quantity": "To taste"},
+        {"item": "Fresh dill or parsley", "quantity": "2 tbsp chopped"}
+      ],
+      "steps": [
+        {
+          "step_number": 1,
+          "action": "Prep Fillets",
+          "instruction": "Pat salmon fillets completely dry with a paper towel. Season flesh and skin liberally with sea salt and freshly cracked black pepper.",
+          "safety_tip": "Dry skin ensures a crisp, golden sear without sticking or oil splatters.",
+          "timer_seconds": 120
+        },
+        {
+          "step_number": 2,
+          "action": "Sear Salmon",
+          "instruction": "Heat 1 tbsp olive oil in a non-stick or cast-iron skillet over medium-high heat. Place salmon skin-side down. Press gently for 10 seconds. Sear undisturbed for 4-5 minutes until skin is crispy.",
+          "safety_tip": "Do not move the fish until it naturally releases from pan surface.",
+          "timer_seconds": 270
+        },
+        {
+          "step_number": 3,
+          "action": "Flip & Baste",
+          "instruction": "Flip fillets carefully and cook for an additional 3-4 minutes until medium-rare to medium. Squeeze half a lemon and add minced garlic in the final 30 seconds.",
+          "safety_tip": "Salmon should reach an internal temp of 52-60°C (125-140°F) for ideal tenderness.",
+          "timer_seconds": 210
+        },
+        {
+          "step_number": 4,
+          "action": "Toss Salad",
+          "instruction": "In a salad bowl, whisk olive oil, remaining lemon juice, lemon zest, salt, and dill. Toss gently with baby spinach, cucumber slices, and cherry tomatoes.",
+          "safety_tip": "Wash raw greens thoroughly under clean cold running water.",
+          "timer_seconds": 120
+        },
+        {
+          "step_number": 5,
+          "action": "Assembly",
+          "instruction": "Plate a generous bed of dressed greens and place the warm, crisp salmon fillet atop. Garnish with lemon wedges and fresh cracked pepper.",
+          "safety_tip": "Consume immediately for peak texture contrast.",
+          "timer_seconds": 60
+        }
+      ]
+    },
+    {
+      "id": "recipe_paneer_tikka",
+      "title": "Tandoori Spiced Paneer Tikka with Mint Dip",
+      "cuisine": "North Indian",
+      "difficulty": "Easy",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 15,
+      "servings": 3,
+      "calories_per_serving": 290,
+      "tags": ["Vegetarian", "High Calcium", "Gluten Free"],
+      "ingredients": [
+        {"item": "Fresh Paneer (cubed)", "quantity": "300g"},
+        {"item": "Bell peppers (red, green, yellow diced)", "quantity": "1.5 cups"},
+        {"item": "Red onion (diced into petals)", "quantity": "1 medium"},
+        {"item": "Hung curd / Greek yogurt", "quantity": "1/2 cup"},
+        {"item": "Besan (roasted gram flour)", "quantity": "1 tbsp"},
+        {"item": "Mustard oil (smoked)", "quantity": "1 tbsp"},
+        {"item": "Tandoori masala, chaat masala, kasuri methi", "quantity": "1 tbsp mix"},
+        {"item": "Lemon juice & ginger garlic paste", "quantity": "1 tbsp each"}
+      ],
+      "steps": [
+        {
+          "step_number": 1,
+          "action": "Prepare Marinade",
+          "instruction": "In a mixing bowl, combine hung curd, roasted besan, mustard oil, ginger-garlic paste, kasuri methi, tandoori masala, and lemon juice until smooth and vibrant orange.",
+          "safety_tip": "Whisk curd properly so marinade coats evenly without separating.",
+          "timer_seconds": 180
+        },
+        {
+          "step_number": 2,
+          "action": "Coat & Skewer",
+          "instruction": "Add paneer cubes, bell pepper chunks, and onion petals to marinade. Gently toss. Thread alternately onto wooden or metal skewers.",
+          "safety_tip": "Soak wooden skewers in water for 20 minutes prior to prevent scorching.",
+          "timer_seconds": 300
+        },
+        {
+          "step_number": 3,
+          "action": "Grill / Roast",
+          "instruction": "Preheat oven / air fryer to 200°C (400°F) or grill on a hot stovetop grill pan. Brush lightly with ghee or butter. Cook skewers for 12-14 minutes, rotating halfway for charred edges.",
+          "safety_tip": "Use heat-resistant tongs and protective oven mitts.",
+          "timer_seconds": 780
+        },
+        {
+          "step_number": 4,
+          "action": "Finish & Plate",
+          "instruction": "Sprinkle freshly roasted skewers with chaat masala and fresh cilantro. Serve with cooling mint-coriander yogurt chutney and pickled onions.",
+          "safety_tip": "Enjoy hot directly off the skewers.",
+          "timer_seconds": 60
+        }
+      ]
+    },
+    {
+      "id": "recipe_tofu_stirfry",
+      "title": "Crispy Tofu & Rainbow Vegetable Stir Fry",
+      "cuisine": "Pan-Asian",
+      "difficulty": "Easy",
+      "prep_time_minutes": 15,
+      "cook_time_minutes": 10,
+      "servings": 2,
+      "calories_per_serving": 320,
+      "tags": ["Vegan", "High Fiber", "Plant Protein"],
+      "ingredients": [
+        {"item": "Extra firm tofu (pressed and cubed)", "quantity": "250g"},
+        {"item": "Cornstarch", "quantity": "1.5 tbsp"},
+        {"item": "Broccoli florets", "quantity": "1 cup"},
+        {"item": "Bell peppers & snap peas", "quantity": "1 cup"},
+        {"item": "Sesame oil", "quantity": "1 tbsp"},
+        {"item": "Low sodium soy sauce or tamari", "quantity": "2 tbsp"},
+        {"item": "Minced garlic & fresh ginger", "quantity": "1 tbsp each"},
+        {"item": "Toasted sesame seeds & scallions", "quantity": "For garnish"}
+      ],
+      "steps": [
+        {
+          "step_number": 1,
+          "action": "Crisp Tofu",
+          "instruction": "Toss pressed tofu cubes with cornstarch, salt, and pepper. Heat sesame oil in a wok over medium-high heat. Fry cubes for 6-8 minutes until golden and crispy on all sides. Set aside.",
+          "safety_tip": "Ensure tofu is thoroughly dried before frying to prevent hot oil splatters.",
+          "timer_seconds": 450
+        },
+        {
+          "step_number": 2,
+          "action": "Flash Stir-Fry",
+          "instruction": "In the same wok, toss garlic, ginger, broccoli florets, bell peppers, and snap peas on high heat for 3-4 minutes until tender-crisp.",
+          "safety_tip": "Maintain constant motion in the wok to prevent garlic from burning.",
+          "timer_seconds": 210
+        },
+        {
+          "step_number": 3,
+          "action": "Sauce & Combine",
+          "instruction": "Pour low sodium soy sauce and 1 tbsp water into the wok. Return crispy tofu. Toss vigorously for 1 minute until sauce glazes the vegetables and tofu.",
+          "safety_tip": "Turn off heat promptly to preserve crisp vegetable bite.",
+          "timer_seconds": 90
+        },
+        {
+          "step_number": 4,
+          "action": "Serve",
+          "instruction": "Garnish with toasted white sesame seeds and sliced green scallions. Serve over steamed brown jasmine rice or quinoa.",
+          "safety_tip": "Serve warm.",
+          "timer_seconds": 60
+        }
+      ]
+    }
+  ]
+}
